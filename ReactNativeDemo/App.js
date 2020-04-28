@@ -3,7 +3,7 @@ import {Button, Platform, StyleSheet, Text, View, TextInput, ImageBackground, Im
 
 import {Sentry, SentrySeverity, SentryLog} from 'react-native-sentry';
 
-Sentry.config('https://4f4c77ac999c47248f4b202aaa39c9f0@sentry.io/1481922', {
+Sentry.config('https://e5b9a6b05e774c5793a67115281164dd@o266322.ingest.sentry.io/5217173', {
   logLevel: SentryLog.Debug,
   deactivateStacktraceMerging: false
 }).install();
